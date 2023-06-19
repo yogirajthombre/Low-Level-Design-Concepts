@@ -1,2 +1,5 @@
-package stratergy;public class Drive {
+package stratergy;
+
+public interface Drive {
+    void drive();
 }

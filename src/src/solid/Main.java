@@ -11,9 +11,9 @@ public class Main {
         List<EngineVehicle> vehicleList = new ArrayList<>();
         vehicleList.add(new Car());
         vehicleList.add(new MotorCycle());
-        vehicleList.add(new Bicycle());
+        // vehicleList.add(new Bicycle());
         for (EngineVehicle vh : vehicleList){
-            System.out.println(vh.hasEngine().toString());
+            System.out.println(vh.hasEngine());
         }
     }
 }
